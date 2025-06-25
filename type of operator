@@ -1,0 +1,4 @@
+let variableType = typeof addEventListener;
+console.log("Typeof Operator:");
+console.log("Type of variable 'a':", variableType);
+console.log("/n");
