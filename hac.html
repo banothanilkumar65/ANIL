@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App with Timer and Leaderboard</title>
+    <link rel="stylesheet"href="hac.css">
+
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="header">
+            <div class="question-count">Question 1 of 15</div>
+            <div class="timer">10s</div>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+        </div>
+        <div class="question-container">
+            <h2 class="question-text">Loading question...</h2>
+            <div class="options-container">
+            
+            </div>
+        </div>
+        <button class="next-btn" disabled>Next Question</button>
+    </div>
+
+    <div class="results-modal">
+        <div class="modal-content">
+            <h2>Quiz Completed!</h2>
+            <div class="score-display">Your Score: <span id="final-score">0</span>/15</div>
+            <div class="star-rating" id="star-rating">☆☆☆☆☆</div>
+            <div class="leaderboard">
+                <h3>Top Scores</h3>
+                <div id="leaderboard-entries">
+                  
+                </div>
+            </div>
+            <button class="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+     
+   <script src="hac.js"></script>
+</body>
+</html>
